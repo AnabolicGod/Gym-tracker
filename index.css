@@ -1,0 +1,56 @@
+body {
+    background-image: url(gym.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 0 black;
+}
+
+.rep-tracker {
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 70%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin-right: 0 0 20px 0;
+}
+
+button {
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#reps-btn {
+    background: linear-gradient(61deg, rgba(27,0,70,1) 0%, rgba(94,38,122,1) 52%, rgba(197,129,238,1) 100%);
+}
+
+#reps-btn:hover {
+    background: linear-gradient(61deg, rgba(54,0,139,1) 0%, rgba(126,52,163,1) 52%, rgba(216,174,241,1) 100%);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#next-btn {
+    background: linear-gradient(61deg, rgba(11,0,108,1) 0%, rgba(28,25,148,1) 52%, rgba(118,124,240,1) 100%);
+}
+
+#snext-btn:hover {
+    background: linear-gradient(61deg, rgba(17,0,171,1) 0%, rgba(36,33,182,1) 52%, rgba(163,167,247,1) 100%);
+}
